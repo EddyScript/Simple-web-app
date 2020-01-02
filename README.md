@@ -1,4 +1,4 @@
-# my-app
+# Kenia-punto-com
 
 ## Project setup
 ```
