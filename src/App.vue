@@ -67,7 +67,7 @@
     </v-card-title>
 
     <v-card-text class="headline font-weight-bold">
-      "I miss her :("
+      "I'm yours baby"
     </v-card-text>
 
     <v-card-actions>
@@ -170,10 +170,10 @@ export default {
 
         alert1: function () {
             function greet1() {
-                alert('Aun no somos oficiales pero ojala un dia puedas ser totalmente mia. Por lo mientras, a escondidas vamos a compartir este amor prohibido. Creeme que cuando estamos publicos y oficiales, te prometo dar te todo lo que tu quieras. Y si no lo tengo lo busco o te lo invento')
+                alert('Amor no te preocupes de mi ex. Creeme que yo soy fiel, mis ojos, mis labios, mi cuerpo, mi mente, todo lo que soy es tuyo. Ojala un dia me dejas enseñar te que soy todo tuyo y volverte loca por mi en nuestra cama...')
             }
             function redirect1() {
-                window.location.href = "https://www.youtube.com/watch?v=RgULjdsjiLQ";
+                window.location.href = "https://www.youtube.com/watch?v=NYQcui1-JjM";
             }
             greet1()
             redirect1()
