@@ -15,15 +15,15 @@
     <div class="ma-6 mt-12" id="greetingCard">
       <v-card width="400" class="mx-auto mt-12">
         <v-card-title>
-          <h3 v-if = "isMorning()" class="mx-auto font-weight-regular">Buenos dias, mi corazon de melon!</h3>
+          <h3 v-if = "isMorning()" class="mx-auto font-weight-regular">Buenos dias</h3>
 
-          <h3 v-else-if = "isAfternoon()"  class="mx-auto font-weight-regular">Buenas tardes, chiky!</h3>
+          <h3 v-else-if = "isAfternoon()"  class="mx-auto font-weight-regular">Buenas tardes</h3>
 
-          <h3 v-else-if = "isNight()" class="mx-auto font-weight-regular">Buenas noches, mi cosa hermosa!</h3>
+          <h3 v-else-if = "isNight()" class="mx-auto font-weight-regular">Buenas noches</h3>
         </v-card-title>
 
         <v-card-title>
-          <p class="mx-auto"> Te amo </p>
+          <p class="mx-auto"></p>
         </v-card-title>
         
         <v-card-actions>
@@ -67,7 +67,7 @@
     </v-card-title>
 
     <v-card-text class="headline font-weight-bold">
-      "I'm yours baby"
+      "Nice webapp!"
     </v-card-text>
 
     <v-card-actions>
@@ -153,7 +153,7 @@ export default {
         list: ['Mi amor','Cosita', 'Cosa bella','Hermosa','Preciosa','Princesa','Chiky 🍪','Mi ardilla 🐿','Corazon','Baby','Mi vida','Mi mejor amiga','Mi Cielo','Mujer mas hermosa del mundo','Mi futuro','Mi Felicidad','Flaka','Ojos de miel','Mi enojona','Perfecta','Mi corazon de melon'],
         chosenName: '',
         cards: [
-        { title: 'Just us', src: 'https://lh3.googleusercontent.com/Ri8eD5C-v6DyUW3TyD6Ajp4gkyyqUbuIx_hQvuOS0-9uZPRZiqZFhBwh625qsDX3_Rm8HPmPIfnUqWLOiCMEGAIV34OwBqRCp0T3KQKIMBp93_J_bsl5R5iinCdB8EWxYxJKb1iZ3XjD1urv8o8R7zRT-iq3PQAandcP5c6DUUjGtsOkdyQkCISV2zbRF4lT9zpaGN43sqpTPaVT3qyLPIpi3URTldTF0o7Gw5Y2dGQIBSSILhgKWTR-wF8368YQcwXe1GyauNInDevQTywVyjfBl48BOAAFde8p-wdx4MKzlKCNXzpvQG2OGZcM76XjYgg41CK0UxtOx9uYooADCt1ThAvXtVcOrZfnbRxBoj9E5hG-8ix1EpWsFzPqjz-qCMHmAb6bf7_nr9wZ30dWlIIZ5CRj5y70-vAPMUrcvY0y9TLfdwOgvdgnLnoOUnrUJP7iCJMJ6vNJoeRGYjZG7lL7dOJQjhgA-pWR23FjIytB-xuLlVUddHlBOGI2O7KcMrwgzyLpMRG8j9aAb6TGXvFAyHtEQ1JdNKxpd3btUjo4luhIev1TwiA1Nj80dc9XZlNhoupZwIsBmDURDqUpZ5i_WfVSQ4Yxy4t9PXoeefy33frgRYgmbwdWrugo3F9gxSuYGhO4BhdpxxyKyQeN2ldvbhT-vt_eMYAV3jVbOyWyu8QgtgdkbCI=w375-h500-no', flex: 12 },
+        { title: '', src: 'https://lh3.googleusercontent.com/Ri8eD5C-v6DyUW3TyD6Ajp4gkyyqUbuIx_hQvuOS0-9uZPRZiqZFhBwh625qsDX3_Rm8HPmPIfnUqWLOiCMEGAIV34OwBqRCp0T3KQKIMBp93_J_bsl5R5iinCdB8EWxYxJKb1iZ3XjD1urv8o8R7zRT-iq3PQAandcP5c6DUUjGtsOkdyQkCISV2zbRF4lT9zpaGN43sqpTPaVT3qyLPIpi3URTldTF0o7Gw5Y2dGQIBSSILhgKWTR-wF8368YQcwXe1GyauNInDevQTywVyjfBl48BOAAFde8p-wdx4MKzlKCNXzpvQG2OGZcM76XjYgg41CK0UxtOx9uYooADCt1ThAvXtVcOrZfnbRxBoj9E5hG-8ix1EpWsFzPqjz-qCMHmAb6bf7_nr9wZ30dWlIIZ5CRj5y70-vAPMUrcvY0y9TLfdwOgvdgnLnoOUnrUJP7iCJMJ6vNJoeRGYjZG7lL7dOJQjhgA-pWR23FjIytB-xuLlVUddHlBOGI2O7KcMrwgzyLpMRG8j9aAb6TGXvFAyHtEQ1JdNKxpd3btUjo4luhIev1TwiA1Nj80dc9XZlNhoupZwIsBmDURDqUpZ5i_WfVSQ4Yxy4t9PXoeefy33frgRYgmbwdWrugo3F9gxSuYGhO4BhdpxxyKyQeN2ldvbhT-vt_eMYAV3jVbOyWyu8QgtgdkbCI=w375-h500-no', flex: 12 },
         ],
         like1: 0,
   }),
@@ -170,10 +170,10 @@ export default {
 
         alert1: function () {
             function greet1() {
-                alert('Amor no te preocupes de mi ex. Creeme que yo soy fiel, mis ojos, mis labios, mi cuerpo, mi mente, todo lo que soy es tuyo. Ojala un dia me dejas enseñar te que soy todo tuyo y volverte loca por mi en nuestra cama...')
+                alert('')
             }
             function redirect1() {
-                window.location.href = "https://www.youtube.com/watch?v=NYQcui1-JjM";
+                window.location.href = "https://www.youtube.com/watch?v=-2n03Ufzni8";
             }
             greet1()
             redirect1()
